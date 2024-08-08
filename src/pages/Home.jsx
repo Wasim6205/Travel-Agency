@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <>
       <div
-        className="relative h-[50vh] md:h-screen bg-cover bg-center"
+        className="relative h-screen bg-cover bg-center"
         style={{ backgroundImage: "url('/images/hero.jpg')" }}
       >
         <div className="absolute text-center inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center">
