@@ -7,10 +7,10 @@ const Home = () => {
   return (
     <>
       <div
-        className="relative h-screen bg-cover bg-center"
+        className="relative h-[50vh] md:h-screen bg-cover bg-center"
         style={{ backgroundImage: "url('/images/hero.jpg')" }}
       >
-        <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center">
+        <div className="absolute text-center inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center">
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">
             Explore the World with Us
           </h1>

@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa'
+import { FaFacebookF, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 
 const Footer = () => {
@@ -23,10 +23,10 @@ const Footer = () => {
             <div>
                 <h2 className='text-xl font-bold mb-4'>Follow Us</h2>
                 <div className='flex space-x-4 mb-4'>
-                    <FaFacebook className='text-blue-500 hover:text-blue-600' />
-                    <FaInstagram className='text-blue-500 hover:text-blue-600' />
-                    <FaTwitter className='text-blue-500 hover:text-blue-600' />
-                    <FaYoutube className='text-blue-500 hover:text-blue-600' />
+                    <FaFacebookF size={20} className='text-blue-500 hover:text-blue-600 cursor-pointer' />
+                    <FaInstagram size={20} className='text-pink-400 hover:text-pink-500 cursor-pointer' />
+                    <FaTwitter size={20} className='text-blue-400 hover:text-blue-500 cursor-pointer' />
+                    <FaYoutube size={20} className='text-red-500 hover:text-red-600 cursor-pointer' />
                 </div>
                 <form className='flex items-center justify-center mt-8'>
                     <input className='w-full p-2 rounded-l-lg bg-gray-900 border border-gray-600' type="email" placeholder='Enter Your Email' />
@@ -35,7 +35,7 @@ const Footer = () => {
             </div>
         </div>
 
-        <div className='flex justify-between mt-8 border-t border-gray-700 pt-4'>
+        <div className='flex justify-between items-center flex-col md:flex-row mt-8 border-t border-gray-700 pt-4'>
             <p>&copy; 2024 Travel Agency. All rights reserved</p>
             <div className='flex space-x-4 mt-4 md:mt-0'>
                 <Link to=''>Privacy Policy</Link>
