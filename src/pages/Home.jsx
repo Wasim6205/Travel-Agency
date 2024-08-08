@@ -2,7 +2,6 @@ import React from "react";
 import PopularDestination from "../components/PopularDestination";
 import Services from "../components/Services";
 import Clients from "../components/Clients";
-import Footer from "../components/Footer";
 
 const Home = () => {
   return (
@@ -26,7 +25,6 @@ const Home = () => {
       <PopularDestination />
       <Services />
       <Clients />
-      <Footer />
     </>
   );
 };
